@@ -1,0 +1,1 @@
+let training = 365
