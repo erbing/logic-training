@@ -1,0 +1,1 @@
+let appRom = document.getElementById('delegation')
