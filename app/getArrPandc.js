@@ -7,7 +7,10 @@
 */
 
 const getArr = ( size ) => {
-   
+   for (let i = 0; i < size; i++) {
+       const e = array[i];
+       
+   }
 }
 
 let arr = getArr(4);        //    给定组合长度为4
