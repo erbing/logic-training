@@ -3,7 +3,6 @@
  * @param  {} b
  * @param  {} c
  */
-
 var a = [0, 1];
 var b = [3, 4, 5];
 var c = [6, 7];
@@ -15,5 +14,4 @@ const getArranging = (a, b, c) => {
 };
 
 var ret = getArranging(a, b, c);
-
 console.log(ret);
