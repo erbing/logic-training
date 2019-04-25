@@ -1,0 +1,10 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+/build/**
+/coverage/**
+/docs/**
+/jsdoc/**
+
+webpack.config.dev.js
+webpack.config.js
+!.eslintrc
