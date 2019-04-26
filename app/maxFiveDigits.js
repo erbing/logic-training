@@ -4,7 +4,8 @@
  * maxFiveDigits(283910356876)   // =>91035
  * maxFiveDigits(123456) //  => 23456
  */
-const maxFiveDigits = (nums, x) => {
+
+const maxFiveDigits = nums => {
   // TODO:完成该函数
   const num = nums + '';
   if (num.length <= 5) return num;

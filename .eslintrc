@@ -19,14 +19,7 @@
   },
   "rules": {
     "func-names": 0,
-    "max-len": [
-      "error",
-      120,
-      4,
-      {
-        "comments": 80
-      }
-    ],
+    "max-len": ["error", 120, 4],
     "indent": ["error", 2],
     "react/jsx-indent": [2, 2],
     "semi": 0,
@@ -67,7 +60,8 @@
     ],
     "object-shorthand": 0,
     "linebreak-style": [0, "error", "windows"],
-    "prefer-template": "off"
+    "prefer-template": "off",
+    "arrow-parens": ["error", "as-needed"]
   },
   "plugins": ["react", "babel"]
 }
