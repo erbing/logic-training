@@ -63,5 +63,5 @@
     "prefer-template": "off",
     "arrow-parens": ["error", "as-needed"]
   },
-  "plugins": ["react", "babel"]
+  "plugins": ["react", "babel", "prettier"]
 }
