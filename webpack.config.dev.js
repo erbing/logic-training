@@ -3,6 +3,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+
 const webpackConfig = {
   entry: {
     app: './app.js',
@@ -14,6 +16,10 @@ const webpackConfig = {
   },
   module: {
     rules: [
+      {
+        test: /\.vue$/,
+        loader: ['vue-loader'],
+      },
       {
         test: /\.js[x]?$/,
         exclude: /node_modules/,
@@ -48,8 +54,9 @@ const webpackConfig = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, './index.html'),
+      template: path.join(__dirname, '../wx/index.shtml'),
     }),
+    new VueLoaderPlugin(),
     //new ExtractTextPlugin("app/assets/icon/iconfont.css")
   ],
   devServer: {

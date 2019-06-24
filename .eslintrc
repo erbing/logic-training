@@ -61,7 +61,8 @@
     "object-shorthand": 0,
     "linebreak-style": [0, "error", "windows"],
     "prefer-template": "off",
-    "arrow-parens": ["error", "as-needed"]
+    "arrow-parens": ["error", "as-needed"],
+    "no-new": "off"
   },
   "plugins": ["react", "babel", "prettier"]
 }
