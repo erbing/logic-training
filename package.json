@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/erbing/logic-training#readme",
   "dependencies": {
+    "jsencrypt": "^3.0.0-rc.1",
     "react": "^16.8.6",
     "vue": "^2.6.10",
     "webpack": "^4.29.6",
