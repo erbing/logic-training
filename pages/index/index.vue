@@ -6,6 +6,7 @@
 
 <script>
 import JsEncrypt from 'jsencrypt';
+// import observerPromise from '../../observer/';
 
 export default {
   name: 'index',
@@ -14,6 +15,7 @@ export default {
       name: 123,
     };
   },
+  components: {},
   created() {
     console.log(this.getJsEncrypt('\n'));
     // D+UDVtk5TBCbJRV/F5ajQ+Tk5vVvxyQ5t1VpsB4XkavqownvM5oIBTwqnsg4liHoVX4yiQsw/59W4uh27i814ixgur5o7ZhYU7yckez7w4YctSTcFrzAxxJ83Yv80ym4jsyqhcy16eCPacZKGKWqzMXaQp+qj9JXiuG7haI02nw=
