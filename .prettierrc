@@ -9,5 +9,6 @@
       "files": ".prettierrc",
       "options": { "parser": "json" }
     }
-  ]
+  ],
+  "tabWidth": 4
 }
