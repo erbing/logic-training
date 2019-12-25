@@ -6,14 +6,14 @@ const create = fn => {
             next(...args);
         }
 
-        const completeFn = (...args) => {
+        function completeFn(...args) {
             complete(...args);
             ret = true;
-        };
+        }
 
-        const errorFn = (...args) => {
+        function errorFn(...args) {
             error(...args);
-        };
+        }
 
         fn({
             next: nextFn,
