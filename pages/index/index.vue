@@ -19,6 +19,8 @@ export default {
     },
     components: {},
     created() {
+        let s = 'https://wwww.vuejs.com.cn';
+        console.log('---testt----', encodeURIComponent(s));
         console.log(this.getJsEncrypt('\n'));
         // D+UDVtk5TBCbJRV/F5ajQ+Tk5vVvxyQ5t1VpsB4XkavqownvM5oIBTwqnsg4liHoVX4yiQsw/59W4uh27i814ixgur5o7ZhYU7yckez7w4YctSTcFrzAxxJ83Yv80ym4jsyqhcy16eCPacZKGKWqzMXaQp+qj9JXiuG7haI02nw=
         console.log(this.getJsEncrypt('\n'));
